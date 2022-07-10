@@ -67,7 +67,7 @@ function generateObstacle(){
         }
     }
     let obstacleInterval=setInterval(moveObstacle, 20);
-    let obstacleTimeout=setTimeout(generateObstacle,1000)
+    let obstacleTimeout=setTimeout(generateObstacle,1250)
 
 }
 
